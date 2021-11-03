@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Salon</title>
+    <!-- Google Fonts - Indie Flower -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Indie Flower -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Block 1 -->
+        <div class="block_1">
+            <img src="img/n11_logo.png" alt="Logo">
+        </div>
+        <!-- Block 1 -->
+
+
+        <!-- Block 2 -->
+        <div class="block_2">
+            <h1>Nails Eleven Salon</h1>
+        </div>
+        <!-- Block 2 -->
+        
+
+        <!-- Block 3 -->
+        <div id="carouselExampleIndicators" class="block_3 carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="img/4.jpg" class="d-block w-100" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="img/5.jpg" class="d-block w-100" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="img/6.jpg" class="d-block w-100" alt="Image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Block 3 -->
+
+
+        <!-- Block 4 -->
+        <div class="block_4">
+            <h2>SPECIAL OFFERS</h2>
+
+            <a href="https://api.whatsapp.com/send?phone=971558271004&text=Hello%2C%20i%20want%20to%2020%25%20discount">
+                <div class="block_4__item1">
+                    <img src="img/discount.png" alt="Logo">
+                    <h2>First time with us? <br> Get -20% for all services</h2>
+                </div>
+
+                <span>click and get a discount at whatsapp</span>
+            </a>
+
+            <a href="https://yandex.kz">
+                <div class="block_4__item1">
+                    <img src="img/combo.png" alt="Logo">
+                    <h2>COMBO PACKAGE</h2>
+                </div>
+
+                <span>click to learn more</span>
+            </a>
+    
+        </div>
+        <!-- Block 4 -->
+
+
+        <!-- Block 5 -->
+        <div class="block_5">
+            <h2>SERVICES</h2>
+
+                <div class="block_5__item1">
+                    <img src="img/nails.png" alt="Logo">
+                    <h2>Nails</h2>
+
+                    <h3 onclick="openNails()">Go to price</h3>
+                </div>
+
+                <div class="block_5__item1">
+                    <img src="img/brows.png" alt="Logo">
+                    <h2>Brows & Lashes</h2>
+
+                    <h3 onclick="openBrows()">Go to price</h3>
+                </div>
+    
+        </div>
+        <!-- Block 5 -->
+        
+
+        <!-- Modal window - Block 5 -->
+        <div id="nails" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNails()">&times;</a>
+            
+            <div class="nails_block">
+                <img src="img/nails.png" alt="Image">
+                <h2>Nails</h2>
+            </div>
+
+            <div class="menu">
+                <h2>Hands</h2>
+                <div class="menu__item1">
+                    <p class="menu__item1_text">Apparat <br> classic</p>
+                    <p>combi manicure</p>
+                    <p>110 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p class="menu__item1_text">Apparat <br> gelish</p>
+                    <p> combi manicure</p>
+                    <p>180 AED</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <h2>Feet</h2>
+                <div class="menu__item1">
+                    <p class="menu__item1_text">Apparat <br> classic</p>
+                    <p>combi pedicure</p>
+                    <p>130 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p class="menu__item1_text">Apparat <br> gelish</p>
+                    <p> combi pedicure</p>
+                    <p>200 AED</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <h2>Nail Extension</h2>
+                <div class="menu__item1">
+                    <p>Hard gel overlay</p>
+                    <p>250 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Nail extension refill</p>
+                    <p>280 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Nail extension short</p>
+                    <p>350 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Nail extension long</p>
+                    <p>390 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Nail extension creative</p>
+                    <p>450 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Nail extension removal</p>
+                    <p>100 AED</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <h2>Add on</h2>
+                <div class="menu__item1">
+                    <p>Buff | shinei file</p>
+                    <p>30 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Change polish classic</p>
+                    <p>60 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Change polish gelish</p>
+                    <p>90 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Special design</p>
+                    <p>10 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Ombre | french</p>
+                    <p>50 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Removal of gel polish</p>
+                    <p>30 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Acrylic powder</p>
+                    <p>50 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Ingrown | modelling</p>
+                    <p>40 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>SPA treatment</p>
+                    <p>80 AED</p>
+                </div>
+            </div>
+            
+            <div class="menu">
+                <h2>Repair</h2>
+                <div class="menu__item1">
+                    <p>Gel polish</p>
+                    <p>20 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Extansion</p>
+                    <p>40 AED</p>
+                </div>   
+            </div>
+        </div>
+        <!-- Modal window - Block 5 -->
+
+
+        <!-- Modal window - Block 5 -->
+        <div id="brows" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeBrows()">&times;</a>
+            
+            <div class="nails_block">
+                <img src="img/brows.png" alt="Image">
+                <h2>Brows & Lashes</h2>
+            </div>
+
+            <div class="menu">
+                <h2>Brow bar</h2>
+                <div class="menu__item1">
+                    <p>Shaping | threading</p>
+                    <p>60 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Tinting</p>
+                    <p>70 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Henna tint</p>
+                    <p>80 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Signature brows</p>
+                    <p>170 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Lamination</p>
+                    <p>300 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Lamination lashes brows combo</p>
+                    <p>450 AED</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <h2>Add on</h2>
+                <div class="menu__item1">
+                    <p>Classic lashes</p>
+                    <p>250 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>2D lashes</p>
+                    <p>300 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>3D lashes</p>
+                    <p>350 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Russian volume</p>
+                    <p>450 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Hollywood lashes</p>
+                    <p>500 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Eyelashes refill</p>
+                    <p>200 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Eyelashes refill for megavolume</p>
+                    <p>300 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Styling</p>
+                    <p>50 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Removal only</p>
+                    <p>80 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Removal for new set</p>
+                    <p>40 AED</p>
+                </div>
+                <div class="menu__item1">
+                    <p>Lamination</p>
+                    <p>300 AED</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Modal window - Block 5 -->
+
+
+        <!-- Block 6 -->
+        <div class="block_6">
+           <h2>WHY US</h2>
+           <div class="block_6__item1">
+                <div class="block_6__item1_image">
+                    <img src="img/diamond.png" alt="Image">
+                </div>
+
+                <div class="block_6__item1_text">
+                    <p>NEW LUXURY BEAUTY LOUNGE <br><span>in downtown Dubai</span></p>
+                </div>
+           </div>
+
+           <div class="block_6__item1">
+                <div class="block_6__item1_image">
+                    <img src="img/exclusive.png" alt="Image">
+                </div>
+
+                <div class="block_6__item1_text">
+                    <p>EXCLUSIVE <br><span>pampering experience</span></p>
+                </div>
+            </div>
+
+            <div class="block_6__item1">
+                <div class="block_6__item1_image">
+                    <img src="img/price.png" alt="Image">
+                </div>
+
+                <div class="block_6__item1_text">
+                    <p>BEST PRICES <br><span>for the luxury services and amazing quality</span></p>
+                </div>
+           </div>
+
+           <div class="block_6__item1">
+                <div class="block_6__item1_image">
+                    <img src="img/professional.png" alt="Image">
+                </div>
+
+                <div class="block_6__item1_text">
+                    <p>PROFESSIONAL<br><span>Russian speaking technicians</span></p>
+                </div>
+            </div>
+
+            <div class="block_6__item1">
+                <div class="block_6__item1_image">
+                    <img src="img/coffee.png" alt="Image">
+                </div>
+
+                <div class="block_6__item1_text">
+                    <p>CHILL WITCH A TREAT <br><span>Complimentary tea, coffee and other sweets</span></p>
+                </div>
+            </div>
+
+     
+
+
+        </div>
+        <!-- Block 6 -->
+
+        <!-- Block 7 -->
+        <div class="block_7">
+            <h2>SIGN UP</h2>
+            <div class="block_7__item1">
+                <a href="https://api.whatsapp.com/send?phone=971558271004&text=Hello%2C%20i%20want%20to%2020%25%20discount">
+                    <div class="whatsapp">
+                        <img src="img/whatsapp.png" alt="Image">
+                        <p>WHATSAPP</p>
+                    </div>
+                </a>
+
+                <a href="tel:+971558271004">
+                    <div class="telephone">
+                        <img src="img/telephone.png" alt="Image">
+                        <p>+ 971 55 827 1004</p>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/nails11salon/">
+                    <div class="instagram">
+                        <img src="img/instagram.png" alt="Image">
+                        <p>INSTAGRAM</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Block 7 -->
+
+
+        <div class="block_8">
+            <h2>LOCATION</h2>
+            <p>Dunya Tower, Downtown. Ground floor | Shop #4 Opposite to The Address Fountain Views Residence 3, Free parking</p>
+            
+            <p>Working hours <br>
+                Monday - Friday 10am to 9pm <br>
+                Sunday is a day off
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2178.15694807485!2d55.27444560656555!3d25.19665264486543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2z0JHRg9GA0LTQti3QpdCw0LvQuNGE0LA!5e0!3m2!1sru!2skz!4v1635935770874!5m2!1sru!2skz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <footer>
+            <div>Website made by <a href="https://instagram.com/aibol.biss">Aibol.Biss</a></div>
+        </footer>
+
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        function openNails() {
+          document.getElementById("nails").style.width = "100%";
+        }
+        
+        function closeNails() {
+          document.getElementById("nails").style.width = "0";
+        }
+        function openBrows() {
+          document.getElementById("brows").style.width = "100%";
+        }
+        
+        function closeBrows() {
+          document.getElementById("brows").style.width = "0";
+        }
+        </script>
+</body>
+</html>

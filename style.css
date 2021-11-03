@@ -1,0 +1,309 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#3f51b5, #000);
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.main{
+    /* position: relative; */
+    text-align: center;
+    margin: 0 auto;
+    background-color: #FFFDEE;
+}
+.block_1 >img{
+    width: 200px;
+}
+.block_2 >h1{
+    font-family: 'Pacifico', cursive;
+    margin: 0 0 30px 0;
+}
+.block_3{
+    margin: 0 10px;
+}
+.carousel-inner{
+    border-radius: 30px;
+}
+.block_4{
+    position: relative;
+    text-align: center;
+}
+.block_4 >h2{
+    margin: 50px 0 25px 0;
+}
+.block_4__item1{
+   position: relative;
+   margin: 10px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   z-index: 3;
+}
+.block_4__item1 >img{
+    width: 100%;
+    border-radius: 30px;
+}
+.block_4__item1 >h2{
+    position: absolute;
+    color: #fff;
+}
+.block_4 > a >span{
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+.block_5{
+    margin: 0 10px;
+}
+.block_5 >h2{
+    margin: 50px 0 25px 0;
+}
+.block_5__item1{
+    position: relative;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 3;
+ }
+ .block_5__item1 >img{
+     width: 100%;
+     border-radius: 30px;
+ }
+ .block_5__item1 >h2{
+    position: absolute;
+    color: #fff;
+}
+.block_5__item1 >h3{
+    padding: 10px 0;
+    position: absolute;
+    color: #fff;
+    background: rgb(233, 201, 73);
+    width: 100%;
+    bottom: -10px;
+    border-radius: 0 0 30px 30px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #FFFDEE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+
+  .nails_block{
+      position: relative;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      z-index: 3;
+  }
+  .nails_block >img{
+      width: 100%;
+      border-radius: 30px;
+  }
+  .nails_block >h2{
+      position: absolute;
+      color: #fff;
+  }
+
+  
+
+  .menu{
+
+  }
+  .menu >h2{
+
+  }
+  .menu__item1{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0 20px;
+  }
+  .menu__item1_text{
+      text-align: start;
+  }
+
+
+  .block_6{
+      margin: 80px 10px 0 15px;
+  }
+  .block_6__item1{
+      display: flex;
+      margin-bottom: 10px;
+  }
+  .block_6__item1_image{
+    background-color: rgb(233, 201, 73);
+    border-radius: 50%;
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  .block_6__item1_image >img{
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+  }
+  .block_6__item1_text >p{
+    text-align: start;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .block_6__item1_text >p >span{
+      font-size: 14px;
+  }
+
+
+  .block_7__item1{
+    display: flex;
+    flex-direction: column;
+  }
+  .whatsapp, .telephone, .instagram{
+    position: relative;
+    height: 50px;
+    padding: 14px;
+    margin: 10px 15px;
+    border-radius: 30px;
+  }
+  .whatsapp >img, .telephone >img, .instagram >img{
+    position: absolute;
+  }
+  .whatsapp >p, .telephone >p, .instagram >p{
+      color: #fff;
+      font-size: 14px;
+  }
+
+  .whatsapp{
+    background: linear-gradient(#5AF876, #07B926);
+  }
+  .whatsapp >img{
+    top: 10px;
+    left: 86px;
+    width: 30px;
+  }
+  .telephone{
+    background: linear-gradient(#00ADF8, #0983C5);
+  }
+  .telephone >img{
+    top: 12px;
+    left: 70px;
+    width: 24px;
+  }
+  .instagram {
+    background: linear-gradient(#FF2A6E, #B31CA3);
+  }
+  .instagram >img{
+    top: 11px;
+    left: 85px;
+    width: 28px;
+  }
+
+
+  .block_7{
+    margin: 60px 10px 0 10px;
+  }
+
+
+
+
+.block_8 >h2{
+    margin-top: 70px;
+}
+.block_8 >p{
+    margin: 15px;
+}
+footer{
+    background-color: #000;
+    padding: 10px 0;
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+@media screen and (min-width: 360px){
+    .whatsapp >img{
+        left: 80px;
+    }
+    .telephone >img{
+        left: 65px;
+    }
+    .instagram >img{
+        left: 76px;
+    }
+}
+@media screen and (min-width: 375px){
+    .whatsapp >img{
+        left: 85px;
+    }
+    .telephone >img{
+        left: 70px;
+    }
+    .instagram >img{
+        left: 80px;
+    }
+}
+@media screen and (min-width: 411px){
+    .whatsapp >img{
+        left: 100px;
+    }
+    .telephone >img{
+        left: 90px;
+    }
+    .instagram >img{
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 768px){
+.main {
+    max-width: 480px;
+}
+}
